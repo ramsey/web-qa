@@ -84,6 +84,19 @@ $QA_RELEASES = [
         ],
     ],
 
+    '8.3.999' => [
+        'active'  => true,
+        'release' => [
+            'type'       => 'beta',
+            'number'     => 2,
+            'sha256_bz2' => 'f8e04f8551be7bc57c72f0d539f5df8f5863396aea97ff5800456d4084654ac3',
+            'sha256_gz'  => '33aeecdd05b57c9335e2c012a9798d183696afb125bdfa7789a9b61bad51cea5',
+            'sha256_xz'  => '23d4dbd9b0cf237486c48edb90c6818eec4ab7a44ab1936aa6647330a94ba6e8',
+            'date'       => '15 Feb 2023',
+            'baseurl'    => 'https://github.com/ramsey/php-src/releases/download/php-8.3.999beta2/',
+        ],
+    ],
+
 ];
 
 /*** End Configuration *******************************************************************/
